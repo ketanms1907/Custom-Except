@@ -9,3 +9,6 @@ function get_the_custom_excerpt($limit){
 	$excerpt = $excerpt;
 	return $excerpt;
 }
+
+
+Call :  <?php echo get_the_custom_excerpt(100) ?>
